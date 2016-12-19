@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('http://www.nixon.com/on/demandware.static/Sites-US-Site/-/en_US/v1482042930272/css/fonts/icomoon-nixon.ttf?bvr4g8');
+
+$Font: 'Montserrat', sans-serif;
+
+.nav-bar {
+  height: 169px;
+  .customer-bar {
+    height: 40px;
+    margin: 0;
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: space-between;
+    .customer-local {
+      height: 40px;
+      width: 87.44px;
+      border-right: 1px solid #3f3f3f;
+      padding: 0 20px;
+      transition: background-color .25s;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background-color: #383838;
+      }
+      a {
+        height: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-family: $Font;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        font-size: 11px;
+        letter-spacing: .25px;
+        line-height: 40px;
+        color: white;
+        cursor: pointer;
+        position: relative;
+        transition: color .25s;
+        .flag {
+          height: 12px;
+          width: 16px;
+          margin-right: 13px;
+          background: url("http://demandware.edgesuite.net/aayf_prd/on/demandware.static/Sites-US-Site/-/en_US/v1482042930272/css/flags/4x3/us.svg");
+          background-size: contain;
+          background-position: 50%;
+        }
+        .language {
+        }
+        &:hover {
+          color: #d54d4d;
+        }
+      }
+    }
+    .customer-account {
+      height: 40px;
+      width: 268.22px;
+      border: 0;
+      display: flex;
+      flex-direction: row;
+      .login {
+        height: 40px;
+        width: 97.45px;
+        font-family: $Font;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        font-size: 11px;
+        letter-spacing: .25px;
+        line-height: 40px;
+        color: white;
+        border-left: 1px solid #3f3f3f;
+        transition: background-color .25s;
+        a {
+          cursor: pointer;
+        }
+        &:hover {
+          background-color: #383838;
+        }
+      }
+      .my-cart {
+        height: 40px;
+        width: 129.77px;
+        font-family: $Font;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        font-size: 11px;
+        letter-spacing: .25px;
+        line-height: 40px;
+        color: white;
+        cursor: pointer;
+        border-left: 1px solid #3f3f3f;
+        transition: background-color .25s;
+        .cart-icon {
+          // height: 27px;
+          // width: 27px;
+          // color: white;
+          // font-family: 'icomoon-nixon';
+          // font-size: 27px;
+        }
+        span {
+
+        }
+        &:hover {
+          background-color: #383838;
+        }
+      }
+      .cart-quantity {
+        height: 40px;
+        width: 40px;
+        font-family: $Font;
+        -webkit-font-smoothing: antialiased;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: .25px;
+        line-height: 40px;
+        color: white;
+        cursor: pointer;
+        background-color: #d54d4d;
+      }
+    }
+  }
+  .nav-site {
+    height: 100px;
+    margin-top: 19px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .nixon-title-logo {
+      height: 90px;
+      width: 25%;
+      padding-left: 50px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      img {
+        height: 24px;
+        width: 120px;
+        max-width: 120px;
+      }
+    }
+    .nav-options {
+      width: 50%;
+      padding: 0 5px;
+      font-family: $Font;
+      -webkit-font-smoothing: antialiased;
+      text-align: center;
+      font-size: 12px;
+      letter-spacing: .25px;
+      line-height: 30px;
+      color: #1e1e1e;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      li {
+        height: 60px;
+        margin-top: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        cursor: pointer;
+        border-bottom: 2px solid transparent;
+        &:hover {
+          border-bottom: 2px solid #1e1e1e;
+        }
+      }
+    }
+    .search-bar {
+      height: 90px;
+      width: 25%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding-right: 50px;
+      form {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        input {
+          height: 40px;
+          width: 100px;
+          background-color: white;
+          line-height: 40px;
+          border: 2px solid #1e1e1e;
+          outline: none;
+          border-right: 0;
+          transition: width .25s;
+          ::-webkit-input-placeholder {
+            color: #434246;
+          }
+          &:focus {
+            width: 155px;
+          }
+        }
+        button {
+          height: 40px;
+          width: 40px;
+          line-height: 40px;
+          background-color: white;
+          outline: none;
+          border: 2px solid #1e1e1e;
+          border-left: 0;
+        }
+      }
+    }
+  }
+}
+.sw-img-one {
+  min-height: 570px;
+  background: url("http://demandware.edgesuite.net/aayf_prd/on/demandware.static/-/Library-Sites-Nixon/default/dw838f49ec/16-4/homepage/12-12/STAR-WARS-DEATH-TROOPER-TIER1.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.sw-collection {
+  height: 245px;
+  padding: 15px 0 39px 0;
+  background: #f7f8f9;
+  .collection-wrap {
+    height: 171px;
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: $Font;
+    color: #1e1e1e;
+    .sw-header {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 28px;
+      line-height: 30px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+      sup {
+        position: relative;
+        top: -0.25em;
+        display: flex;
+        align-items: baseline;
+        font-size: 75%;
+      }
+    }
+    .rogue-one {
+      width: 100%;
+      font-size: 13px;
+      letter-spacing: .00125em;
+      margin-top: 14px;
+      display: flex;
+      justify-content: center;
+    }
+    .promotion {
+      width: 100%;
+      color: #acb1b4;
+      font-size: 13px;
+      margin-top: 13px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+      letter-spacing: .25px;
+      a {
+        text-decoration: underline;
+        cursor: pointer;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      sup {
+        position: relative;
+        top: -0.25em;
+        display: flex;
+        align-items: baseline;
+        font-size: 75%;
+      }
+      small {
+        font-size: 80%;
+        position: relative;
+        align-self: flex-end;
+      }
+    }
+    .shop-div {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      button {
+        height: 46px;
+        width: 200px;
+        background-color: #1e1e1e;
+        border: 0;
+        cursor: pointer;
+        color: white;
+        &:hover {
+          box-shadow: inset 0 0 0 3px #383838;
+        }
+      }
+    }
+  }
+}
+.watch-row-one-wrap {
+  height: 391px;
+  background: #f7f8f9;
+  margin-top: -13px;
+  .watch-row-container {
+    height: 391px;
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    .watch-div {
+      height: 391px;
+      width: 33.3333333333%;
+      padding-top: 1em;
+      padding-left: 1em;
+      color: #1e1e1e;
+      font-family: $Font;
+      font-size: 13px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: .25px;
+      line-height: 15px;
+      -webkit-font-smoothing: antialiased;
+      .inner-watch-wrap {
+        .watch-img {
+          height: 247px;
+          transition: opacity .25s;
+          cursor: pointer;
+          &:hover {
+            opacity: .7;
+          }
+        }
+        .description-wrap  {
+          height: 51px;
+          margin-top: 24px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          a {
+            cursor: pointer;
+            color: #acb1b4;
+            font-size: 11px;
+            letter-spacing: .25px;
+            text-align: center;
+          }
+          span {
+            cursor: pointer;
+            color: #1e1e1e;
+            font-size: 12px;
+            margin-top: 6px;
+            text-align: center;
+            letter-spacing: .25px;
+          }
+        }
+      }
+    }
+  }
+}
+.nixon-essentials-container {
+  height: 638px;
+}
+
+// SCROLL TO TOP BUTTON
+.scroll-btn {
+  width: 36px;
+  height: 50px;
+  position: fixed;
+  right: 0px;
+  bottom: 100px;
+  background-color: #1e1e1e;
+  cursor: pointer;
+  behavior: smooth;
+}
