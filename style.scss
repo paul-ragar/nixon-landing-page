@@ -364,6 +364,104 @@ $Font: 'Montserrat', sans-serif;
 }
 .nixon-essentials-container {
   height: 638px;
+  padding-bottom: 15px;
+  .nixon-essentials-wrap {
+    height: 561px;
+    margin: 60px 0;
+    .inner-container {
+      height: 561px;
+      max-width: 940px;
+      margin: 0 auto;
+      .content-container {
+        box-sizing: border-box;
+        color: #1e1e1e;
+        font-family: $Font;
+        h2 {
+          font-size: 24px;
+          font-weight: 700;
+          letter-spacing: .007em;
+          line-height: 24px;
+          padding-top: 30px;
+          margin-top: 20px;
+          margin-bottom: 10px;
+          text-align: center;
+        }
+        p {
+          margin-bottom: 25px;
+          color: #acb1b4;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+          letter-spacing: .25px;
+          margin-top: 21px;
+          padding: 0 17.666%;
+          text-align: center;
+          -webkit-font-smoothing: antialiased;
+          text-transform: none;
+        }
+        .watch-container {
+          margin-top: -1em;
+          margin-left: -1em;
+          box-sizing: border-box;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          .single-watch-div {
+            width: 25%;
+            box-sizing: border-box;
+            margin-right: -0.31em;
+            padding-top: 1em;
+            padding-left: 1em;
+            .watch-inner-wrap {
+              box-sizing: border-box;
+              font-family: $Font;
+              .top-spacer {
+                height: 30px;
+              }
+              .watch-img-wrap {
+                height: 261px;
+                position: relative;
+                padding: 18px 35px 19px;
+                .watch-img {
+                  height: 100%;
+                  max-width: 100%;
+                }
+              }
+              .watch-title {
+                margin: 24px 0 10px 0;
+                text-align: center;
+                a {
+                  text-decoration: none;
+                  color: #1e1e1e;
+                  font-size: 12px;
+                  letter-spacing: .75px;
+                }
+                sub {
+                  left: -0.35em;
+                  font-size: 60%;
+                }
+              }
+              .watch-pricing {
+                text-align: center;
+                color: #9b9e9f;
+                margin-bottom: 5px;
+                font-size: 11px;
+                letter-spacing: .25px;
+                -webkit-font-smoothing: antialiased;
+                .pricing-separator {
+                  padding: 0 4px;
+                }
+              }
+              .bottom-spacer {
+                min-height: 55px;
+                margin: 14px 14px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 // SCROLL TO TOP BUTTON
