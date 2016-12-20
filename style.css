@@ -385,6 +385,66 @@
                 min-height: 55px;
                 margin: 14px 14px 0; }
 
+.collaborative-video-container {
+  height: 1113px; }
+  .collaborative-video-container .collaborative-video-inner-container {
+    height: 1113px;
+    padding-bottom: 15px;
+    background-color: #f7f8f9; }
+    .collaborative-video-container .collaborative-video-inner-container .content-wrapper {
+      height: 1098px;
+      max-width: 940px;
+      margin: 0 auto;
+      padding-top: 60px; }
+      .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container {
+        height: 419px;
+        margin-top: -1em;
+        margin-left: -1em;
+        display: flex;
+        flex-direction: row; }
+        .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper {
+          height: 419px;
+          width: 50%;
+          margin-right: -0.31em;
+          padding-top: 1em;
+          padding-left: 1em; }
+          .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content {
+            height: 364px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap; }
+            .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content .image {
+              height: 300px; }
+            .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content .image-text {
+              height: 39px;
+              margin-top: 22px;
+              margin-bottom: 42px;
+              font-family: "Montserrat", sans-serif;
+              -webkit-font-smoothing: antialiased;
+              letter-spacing: .25px;
+              line-height: 15px;
+              text-align: center; }
+              .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content .image-text .light-gray {
+                height: 23px;
+                padding-bottom: 8px;
+                color: #acb1b4;
+                font-weight: 400;
+                font-size: 11px; }
+              .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content .image-text .dark-gray {
+                color: #1e1e1e;
+                font-size: 12px;
+                font-weight: 400; }
+      .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container {
+        height: 631.75px;
+        width: 100%; }
+        .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container .video-content {
+          height: 589.75px; }
+          .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container .video-content .video-wrapper {
+            height: 528.75px; }
+            .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container .video-content .video-wrapper .nixon-video {
+              width: 940px;
+              height: 528.28px; }
+
 .scroll-btn {
   width: 36px;
   height: 50px;
