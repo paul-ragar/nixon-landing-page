@@ -409,10 +409,7 @@
           padding-top: 1em;
           padding-left: 1em; }
           .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content {
-            height: 364px;
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap; }
+            height: 364px; }
             .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content .image {
               height: 300px; }
             .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content .image-text {
@@ -423,7 +420,10 @@
               -webkit-font-smoothing: antialiased;
               letter-spacing: .25px;
               line-height: 15px;
-              text-align: center; }
+              text-align: center;
+              display: flex;
+              flex-direction: column;
+              justify-content: center; }
               .collaborative-video-container .collaborative-video-inner-container .content-wrapper .image-container .image-div-wrapper .image-content .image-text .light-gray {
                 height: 23px;
                 padding-bottom: 8px;
@@ -444,6 +444,165 @@
             .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container .video-content .video-wrapper .nixon-video {
               width: 940px;
               height: 528.28px; }
+          .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container .video-content .video-caption {
+            margin-top: 22px;
+            margin-bottom: 42px;
+            font-family: "Montserrat", sans-serif;
+            letter-spacing: .25px;
+            line-height: 15px;
+            -webkit-font-smoothing: antialiased;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+            .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container .video-content .video-caption .light-gray-caption {
+              color: #acb1b4;
+              font-weight: 400;
+              font-size: 11px;
+              text-align: center;
+              padding-bottom: 8px; }
+            .collaborative-video-container .collaborative-video-inner-container .content-wrapper .video-container .video-content .video-caption .dark-gray-caption {
+              color: #1e1e1e;
+              font-size: 12px;
+              font-weight: 400;
+              text-align: center; }
+
+.stainless-steel-container {
+  height: 516px; }
+  .stainless-steel-container .inner-container {
+    height: 516px;
+    max-width: 940px;
+    background: white;
+    margin: 0 auto 60px; }
+    .stainless-steel-container .inner-container .header-wrap {
+      height: 73px;
+      color: #1e1e1e;
+      font-family: "Montserrat", sans-serif; }
+      .stainless-steel-container .inner-container .header-wrap h2 {
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 28px;
+        padding-top: 35px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-font-smoothing: antialiased; }
+    .stainless-steel-container .inner-container .watch-container {
+      height: 456px;
+      margin-top: -1em;
+      margin-left: -1em;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center; }
+      .stainless-steel-container .inner-container .watch-container .diameter-wrap {
+        height: 133px;
+        width: 33.3333333333%;
+        margin-right: -0.31em;
+        padding-top: 1em;
+        padding-left: 1em; }
+        .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap {
+          height: 94px;
+          width: 195px;
+          margin: 0 18%; }
+          .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul {
+            height: 94px;
+            width: 195px; }
+            .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul .diameter {
+              height: 34px;
+              margin-bottom: 26px;
+              position: relative;
+              min-width: 232px;
+              font-family: "Montserrat", sans-serif;
+              font-style: normal;
+              letter-spacing: .25px;
+              line-height: 15px;
+              -webkit-font-smoothing: antialiased; }
+              .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul .diameter .icon {
+                font-size: 48px;
+                left: 0;
+                position: absolute;
+                top: -3px; }
+              .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul .diameter span {
+                left: 63px;
+                position: absolute;
+                top: 14px;
+                color: #1e1e1e;
+                font-size: 13px;
+                font-weight: bold;
+                text-transform: uppercase; }
+                .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul .diameter span sub {
+                  top: .0125em;
+                  position: relative;
+                  bottom: -0.25em;
+                  font-size: 75%;
+                  line-height: 0;
+                  color: #1e1e1e;
+                  font-weight: bold;
+                  text-transform: uppercase; }
+      .stainless-steel-container .inner-container .watch-container .watch-img-wrap {
+        height: 456px;
+        width: 33.3333333333%;
+        margin-right: -0.31em;
+        padding-top: 1em;
+        padding-left: 1em; }
+        .stainless-steel-container .inner-container .watch-container .watch-img-wrap .watch-img {
+          height: 440px;
+          width: 300px; }
+      .stainless-steel-container .inner-container .watch-container .watch-title-wrap {
+        height: 289px;
+        width: 33.3333333333%;
+        margin-right: -0.31em;
+        padding-top: 1em;
+        padding-left: 1em; }
+        .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap {
+          height: 192px;
+          font-family: "Montserrat", sans-serif;
+          color: #1e1e1e;
+          -webkit-font-smoothing: antialiased;
+          display: flex;
+          justify-content: center;
+          flex-direction: column; }
+          .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap h3 {
+            font-size: 22px;
+            letter-spacing: .25px;
+            text-align: center;
+            line-height: 26px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: 700; }
+            .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap h3 sub {
+              top: .0125em;
+              bottom: -0.25em;
+              font-size: 75%;
+              line-height: 0; }
+          .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap span {
+            padding-left: 5px;
+            padding-right: 5px;
+            text-align: center;
+            color: #acb1b4;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: .25px;
+            line-height: 15px; }
+          .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap p {
+            margin: 10px 25px 14px;
+            color: #1e1e1e;
+            padding: 10px 0 14px;
+            text-align: center;
+            font-size: 12px;
+            line-height: 22px;
+            letter-spacing: .25px; }
+          .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap button {
+            height: 46px;
+            width: 200px;
+            background-color: #1e1e1e;
+            border: 0;
+            cursor: pointer;
+            color: white; }
+            .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap button:hover {
+              box-shadow: inset 0 0 0 3px #383838; }
 
 .scroll-btn {
   width: 36px;
