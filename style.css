@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-@import url("http://www.nixon.com/on/demandware.static/Sites-US-Site/-/en_US/v1482042930272/css/fonts/icomoon-nixon.ttf?bvr4g8");
 .nav-bar {
   height: 169px; }
   .nav-bar .customer-bar {
@@ -79,9 +78,20 @@
         color: white;
         cursor: pointer;
         border-left: 1px solid #3f3f3f;
-        transition: background-color .25s; }
+        transition: background-color .25s;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center; }
+        .nav-bar .customer-bar .customer-account .my-cart .icon-cart {
+          color: #616161;
+          padding-right: 10px;
+          font-size: 16px;
+          transition: color .25s; }
         .nav-bar .customer-bar .customer-account .my-cart:hover {
           background-color: #383838; }
+          .nav-bar .customer-bar .customer-account .my-cart:hover .icon-cart {
+            color: #d54d4d; }
       .nav-bar .customer-bar .customer-account .cart-quantity {
         height: 40px;
         width: 40px;
@@ -170,6 +180,8 @@
           outline: none;
           border: 2px solid #1e1e1e;
           border-left: 0; }
+          .nav-bar .nav-site .search-bar form button .icon-search {
+            font-size: 18px; }
 
 .sw-img-one {
   min-height: 570px;
@@ -243,6 +255,12 @@
       .sw-collection .collection-wrap .shop-div button {
         height: 46px;
         width: 200px;
+        font-size: 13px;
+        -webkit-font-smoothing: antialiased;
+        font-weight: 500;
+        letter-spacing: .05em;
+        line-height: 46px;
+        padding: 0 20px;
         background-color: #1e1e1e;
         border: 0;
         cursor: pointer;
@@ -499,7 +517,6 @@
       .stainless-steel-container .inner-container .watch-container .diameter-wrap {
         height: 133px;
         width: 33.3333333333%;
-        margin-right: -0.31em;
         padding-top: 1em;
         padding-left: 1em; }
         .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap {
@@ -519,11 +536,12 @@
               letter-spacing: .25px;
               line-height: 15px;
               -webkit-font-smoothing: antialiased; }
-              .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul .diameter .icon {
-                font-size: 48px;
-                left: 0;
-                position: absolute;
-                top: -3px; }
+              .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul .diameter .dm-icons {
+                font-size: 28px;
+                color: #1e1e1e;
+                top: 6px;
+                left: 10px;
+                position: absolute; }
               .stainless-steel-container .inner-container .watch-container .diameter-wrap .inner-wrap ul .diameter span {
                 left: 63px;
                 position: absolute;
@@ -544,7 +562,6 @@
       .stainless-steel-container .inner-container .watch-container .watch-img-wrap {
         height: 456px;
         width: 33.3333333333%;
-        margin-right: -0.31em;
         padding-top: 1em;
         padding-left: 1em; }
         .stainless-steel-container .inner-container .watch-container .watch-img-wrap .watch-img {
@@ -557,7 +574,7 @@
         padding-top: 1em;
         padding-left: 1em; }
         .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap {
-          height: 192px;
+          height: 163px;
           font-family: "Montserrat", sans-serif;
           color: #1e1e1e;
           -webkit-font-smoothing: antialiased;
@@ -594,15 +611,27 @@
             font-size: 12px;
             line-height: 22px;
             letter-spacing: .25px; }
-          .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap button {
+        .stainless-steel-container .inner-container .watch-container .watch-title-wrap .button-wrap {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap; }
+          .stainless-steel-container .inner-container .watch-container .watch-title-wrap .button-wrap button {
             height: 46px;
             width: 200px;
+            font-size: 13px;
+            -webkit-font-smoothing: antialiased;
+            font-weight: 500;
+            line-height: 46px;
+            padding: 0 20px;
             background-color: #1e1e1e;
             border: 0;
             cursor: pointer;
             color: white; }
-            .stainless-steel-container .inner-container .watch-container .watch-title-wrap .content-wrap button:hover {
+            .stainless-steel-container .inner-container .watch-container .watch-title-wrap .button-wrap button:hover {
               box-shadow: inset 0 0 0 3px #383838; }
+          .stainless-steel-container .inner-container .watch-container .watch-title-wrap .button-wrap .top-btn {
+            letter-spacing: .05em;
+            margin-bottom: 19px; }
 
 .scroll-btn {
   width: 36px;
