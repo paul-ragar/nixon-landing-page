@@ -208,7 +208,6 @@ $Font: 'Montserrat', sans-serif;
             width: 155px;
           }
         }
-
         button {
           height: 40px;
           width: 40px;
@@ -622,7 +621,6 @@ $Font: 'Montserrat', sans-serif;
       .diameter-wrap {
         height: 133px;
         width: 33.3333333333%;
-        // margin-right: -0.31em;
         padding-top: 1em;
         padding-left: 1em;
         .inner-wrap {
@@ -642,8 +640,6 @@ $Font: 'Montserrat', sans-serif;
               letter-spacing: .25px;
               line-height: 15px;
               -webkit-font-smoothing: antialiased;
-              // display: flex;
-              // flex-direction: row;
               .dm-icons {
                 font-size: 28px;
                 color: #1e1e1e;
@@ -659,7 +655,6 @@ $Font: 'Montserrat', sans-serif;
                 font-size: 13px;
                 font-weight: bold;
                 text-transform: uppercase;
-                // box-sizing: border-box;
                 sub {
                   top: .0125em;
                   position: relative;
@@ -671,10 +666,8 @@ $Font: 'Montserrat', sans-serif;
                   text-transform: uppercase;
                 }
               }
-
             }
             .meters {
-
             }
           }
         }
@@ -749,7 +742,6 @@ $Font: 'Montserrat', sans-serif;
             font-size: 13px;
             -webkit-font-smoothing: antialiased;
             font-weight: 500;
-            // letter-spacing: .05em;
             line-height: 46px;
             padding: 0 20px;
             background-color: #1e1e1e;
@@ -762,7 +754,6 @@ $Font: 'Montserrat', sans-serif;
           }
           .top-btn {
             letter-spacing: .05em;
-
             margin-bottom: 19px;
           }
         }
@@ -780,10 +771,6 @@ $Font: 'Montserrat', sans-serif;
     margin: 0 auto;
     font-family: $Font;
     -webkit-font-smoothing: antialiased;
-    // .inner-container {
-    //   max-width: 940px;
-    //   height: 389px;
-    // }
     h2 {
       font-size: 24px;
       font-weight: 700;
@@ -825,7 +812,6 @@ $Font: 'Montserrat', sans-serif;
             margin-bottom: 10px;
             text-align: center;
             cursor: pointer;
-
           }
           .measurement {
             color: #1e1e1e;
@@ -837,12 +823,10 @@ $Font: 'Montserrat', sans-serif;
             letter-spacing: .25px;
             line-height: 15px;
             cursor: pointer;
-
             sub {
               font-size: 75%;
               line-height: 0;
               cursor: pointer;
-
             }
           }
           &:hover {
@@ -863,7 +847,6 @@ $Font: 'Montserrat', sans-serif;
             &:hover {
               transform: scale(1.06);
             }
-
           }
         }
       }
@@ -902,7 +885,6 @@ $Font: 'Montserrat', sans-serif;
       .input-wrap {
         width: 33.3333333333%;
         height: 38px;
-        // margin-right: -0.31em;
         margin-left: 0;
         padding-left: 30px;
         padding-right: 30px;
@@ -917,11 +899,9 @@ $Font: 'Montserrat', sans-serif;
           width: 100%;
           background-color: white;
         }
-
       }
       .join-wrap {
         width: 33.3333333333%;
-
         button {
           width: 120px;
           height: 46px;
@@ -1010,7 +990,6 @@ $Font: 'Montserrat', sans-serif;
   font-family: $Font;
   color: #1e1e1e;
   letter-spacing: .25px;
-
   p {
     width: 62%;
     height: 400px;
@@ -1056,7 +1035,6 @@ $Font: 'Montserrat', sans-serif;
     width: 25%;
   }
 }
-
 
 // SCROLL TO TOP BUTTON
 .scroll-btn {

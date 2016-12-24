@@ -10,12 +10,7 @@ angular.module('myApp').controller('mainCtrl', function(mainService, $scope, $lo
     $anchorScroll();
   };
 
-  // $('.image-wrap').mouseenter(() => {
-  //   $('.hover-div').css("transform", "translateY(-5px)");
-  // });
-  // $('.image-wrap').mouseleave(() => {
-  //   $('.hover-div').css("transform", "translateY(0px)");
-  // });
+  
 
 
 
